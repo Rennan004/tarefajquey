@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+.pesquisa{
+    width: 30rem !important;
+}
+.btn-cor{
+    background: #636e72;
+    color: #fff;
+    border: #636e72;
+}
+.btn-cor:hover{
+    background: #2d3436;
+    color: #fff;
+    border: #2d3436;
+}
+
+.font-personal{
+    font-family: 'Oswald', sans-serif;
+}
+.video{
+    padding: 1rem;
+    margin-left: 3rem;
+}
+h1{
+    font-size: 1.2rem;
+}
+p{
+    font-size: 13px;
+}
+.icon{
+    color: #ffffff;
+}
+i{
+    cursor: pointer;
+}
+#btn-count{
+    cursor: pointer;
+}
+@media (max-width: 770px) { 
+    iframe{
+        width: 27rem;
+        height: 20rem;
+        margin-right: 5rem !important;
+    }
+    .pesquisa{
+        width: 15rem !important;
+    }
+    nav{
+       display: flex;
+    }
+ }
+ @media (min-width: 576px){
+    .lista{
+        display: none;
+    }
+ }
+ #like,#dislike {
+    cursor: pointer;
+  }
+ 

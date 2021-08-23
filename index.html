@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="librarys/fontawesome/css/all.css">
+    <title>Document</title>
+</head>
+<body>
+  <div class="col-8 col-sm-12 col-md-12 col-lg-12">
+    <nav class="navbar border-bottom ">
+
+      <div>
+      <button type="button" class="btn btn-cor lista"><i class="fas fa-list"></i>
+      </button>   
+      <a class="navbar-brand font-personal ml-3">
+         <img src="img/youtube.png" alt=""> YouTube
+        </a>
+      </div>
+      
+        <form class="form-inline ">
+          <input class="form-control mr-sm-2 pesquisa ml-5" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+          <button class="btn btn-outline-success my-2 my-sm-0 btn-cor" type="submit"><i class="fas fa-search"></i></button>
+        </form>
+        <div class="row mr-3">
+        <button class="btn btn-light"><i class="fas fa-sun"></i></button>
+        <button class="btn btn-dark"><i class="fas fa-moon"></i></button>
+      </div>
+      </nav>
+    </div>
+
+      <div class="container-fluid">
+        <div class="col-12 col-sm-6 col-md-8">
+        <div class="video">
+          <iframe width="878" height="505" src="https://www.youtube.com/embed/GBk6tPoerq"  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <h1 class=" p-2 text-dark">Música russa "do tiktok" que o pessoal fica girando com as mãos dadas feito louco</h1>
+          <div class="row ">
+          <p class="m-2 text-dark">139.250 visualizações - Estreou em 8 de ago. de 2021</p>
+          <div class="row p-2 ml-5">
+          <a id="like"><i class="fas fa-thumbs-up icon ml-3  text-primary"></i>
+            <span id="gostei" data-number="0" class="text-dark like">
+                0
+            </span>
+          </a>
+            <a id="dislike" class="ml-2"><i class="fas fa-thumbs-down icon ml-3  text-primary"></i>
+              <span id="unlike" data-number="0" class="text-dark unlike">
+                  0
+              </span>
+            </a>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+
+
+    
+    <script src="librarys/fontawesome/js/all.js"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/jascript.js"></script> 
+</body>
+</html>
